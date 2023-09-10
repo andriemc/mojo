@@ -1,0 +1,31 @@
+{
+	"$schema": "http://json-schema.org/schema",
+	"type": "object",
+	"required": ["name"],
+	"properties": {
+		"name": {
+			"type": "string",
+			"description": "The name/id of the extension",
+			"minLength": 1,
+			"maxLength": 20,
+			"pattern": "^[a-z0-9_]+$"
+		},
+		"displayName": {
+			"description": "The displayName of the extension",
+			"maxLength": 20,
+			"minLength": 1
+		},
+		"description": {
+			"type": "string",
+			"description": "The description of the extension."
+		},
+		"authors": {
+			"type": "array",
+			"uniqueItems": true,
+			"description": "The authors/maintainers of the extension.",
+			"items": {
+				"type": "string"
+			}
+		}
+	}
+}

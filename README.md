@@ -68,7 +68,7 @@ So you wanna make your own extension for mojo, for that you'll need:
 You'll first need to get a sample project. For that you'll need to run:
 
 ```bash
-TODO: add this
+deno run -Ar https://cdn.jsdelivr.net/gh/andriemc/mojo@master/init-plugin.ts
 ```
 
 ## Known Issues

@@ -1,0 +1,7 @@
+{
+	"$schema": "schemas/extension.json",
+	"name": "example",
+	"displayName": "Example",
+	"description": "A example extension",
+	"authors": ["andriemc"]
+}
